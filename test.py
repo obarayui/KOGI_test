@@ -248,7 +248,6 @@ def run_chat(chat = chat, start='KOGIだよ！なんでも話しかけてね！'
   if start is not None:
     display_bot(start)
 
-#関数kogioutput機能してない
 def kogioutput(input_text):
     global frame
     
@@ -259,7 +258,6 @@ def kogioutput(input_text):
         frame['userinput'] = None #ここを追加しました（小原）
         return output_text
 
-#関数start機能してない
 def start():
   run_chat(chat=kogioutput)  
 
