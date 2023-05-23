@@ -1,6 +1,3 @@
-!pip uninstall -y t5maru
-!pip install -q git+https://github.com/KuramitsuLab/t5maru.git
-
 import torch
 from transformers import AutoTokenizer,AutoModelForSeq2SeqLM
 
