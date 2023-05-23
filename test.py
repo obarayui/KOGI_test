@@ -1,4 +1,3 @@
-!pip install transformers
 import torch
 from transformers import AutoTokenizer,AutoModelForSeq2SeqLM
 
